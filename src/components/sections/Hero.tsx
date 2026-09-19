@@ -26,8 +26,8 @@ export default function Hero() {
               Lihat Project
             </a>
             <a
-              href="/cv/Muhamad%20Riski%20Purwanto%20CV%20.pdf"
-              download="Muhamad Riski Purwanto CV .pdf"
+              href="/cv/CV_Muhamad_Riski_Purwanto.pdf"
+              download="CV_Muhamad_Riski_Purwanto.pdf"
               className="inline-flex items-center justify-center rounded-full border border-zinc-700 px-6 py-3 text-sm font-semibold text-zinc-200 transition hover:border-zinc-500 hover:bg-zinc-900"
             >
               Download CV

@@ -16,16 +16,6 @@ type ExperienceItem = {
 
 const experiences: ExperienceItem[] = [
   {
-    badge: "👥 Organisasi Mahasiswa",
-    position: "Divisi Pengembangan Sumber Daya Manusia (PSDM)",
-    organization: "Himpunan Mahasiswa Teknik Informatika (HiMTI)",
-    period: "2024 – 2025",
-    description:
-      "Berperan dalam pengembangan anggota organisasi melalui proses rekrutmen, pelatihan, dan evaluasi. Berkolaborasi dengan pengurus lain dalam menyelenggarakan program kerja serta membangun komunikasi dan kerja sama tim yang baik.",
-    image: "/assets/experience/himti.jpg",
-    imageAlt: "Himpunan Mahasiswa Teknik Informatika",
-  },
-  {
     badge: "🏛️ Organisasi Mahasiswa",
     position: "Divisi Pengawasan",
     organization: "Dewan Perwakilan Mahasiswa Fakultas Ilmu Komputer (DPM Fasilkom)",
@@ -34,6 +24,16 @@ const experiences: ExperienceItem[] = [
       "Bertanggung jawab melakukan pengawasan terhadap pelaksanaan program kerja organisasi serta memastikan kegiatan berjalan sesuai aturan yang berlaku. Berkolaborasi dengan berbagai divisi untuk mendukung transparansi, evaluasi, dan tata kelola organisasi yang baik.",
     image: "/assets/experience/dpm.jpg",
     imageAlt: "Dewan Perwakilan Mahasiswa Fakultas Ilmu Komputer",
+  },
+  {
+    badge: "👥 Organisasi Mahasiswa",
+    position: "Divisi Pengembangan Sumber Daya Manusia (PSDM)",
+    organization: "Himpunan Mahasiswa Teknik Informatika (HiMTI)",
+    period: "2024 – 2025",
+    description:
+      "Berperan dalam pengembangan anggota organisasi melalui proses rekrutmen, pelatihan, dan evaluasi. Berkolaborasi dengan pengurus lain dalam menyelenggarakan program kerja serta membangun komunikasi dan kerja sama tim yang baik.",
+    image: "/assets/experience/himti.jpg",
+    imageAlt: "Himpunan Mahasiswa Teknik Informatika",
   },
 ];
 

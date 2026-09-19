@@ -17,7 +17,7 @@ const contacts = [
   {
     label: "LinkedIn",
     value: "M Riski Purwanto",
-    href: "https://www.linkedin.com/in/m-riski-purwanto-99b929403/",
+    href: "https://www.linkedin.com/in/muhamad-riski-purwanto-99b929403/",
     target: "_blank",
     icon: Link2,
   },

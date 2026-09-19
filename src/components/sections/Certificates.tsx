@@ -22,6 +22,46 @@ const certificates: Certificate[] = [
     org: "HackerRank",
     image: "/certificates/HackerRank.jpg",
   },
+  {
+    title: "AI Fundamentals",
+    org: "DataCamp",
+    image: "/certificates/AIFUNDAMENTAL.jpg",
+  },
+  {
+    title: "Foundations: Data, Data, Everywhere",
+    org: "Google / Coursera",
+    image: "/certificates/Foundations Data, Data, Everywhere.jpg",
+  },
+  {
+    title: "Foundations of Cybersecurity",
+    org: "Google / Coursera",
+    image: "/certificates/Foundations of Cybersecurity.jpg",
+  },
+  {
+    title: "Foundations of Business Intelligence",
+    org: "Google / Coursera",
+    image: "/certificates/Foundations of Business Intelligence.jpg",
+  },
+  {
+    title: "Introduction to Data Analytics",
+    org: "IBM / Coursera",
+    image: "/certificates/Introduction to Data Analytics.jpg",
+  },
+  {
+    title: "Introduction to Software Engineering",
+    org: "IBM / Coursera",
+    image: "/certificates/Introduction to Software Engineering.jpg",
+  },
+  {
+    title: "Supervised Machine Learning: Regression and Classification",
+    org: "DeepLearning.AI / Stanford Online / Coursera",
+    image: "/certificates/Supervised Machine Learning Regression and.jpg",
+  },
+  {
+    title: "What is Data Science?",
+    org: "IBM / Coursera",
+    image: "/certificates/What is Data Science.jpg",
+  },
 ];
 
 const containerVariants = {
