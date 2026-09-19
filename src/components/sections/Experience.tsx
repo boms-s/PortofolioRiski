@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { CalendarRange, BriefcaseBusiness, Building2 } from "lucide-react";
+import { CalendarRange, BriefcaseBusiness } from "lucide-react";
 
 type ExperienceItem = {
   badge: string;

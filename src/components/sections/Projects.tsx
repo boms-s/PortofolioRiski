@@ -64,12 +64,7 @@ export default function Projects() {
     activeProjectIndex !== null ? projects[activeProjectIndex] : null;
 
   useEffect(() => {
-    if (activeProjectIndex === null) {
-      setActiveScreenshotIndex(0);
-      return;
-    }
-
-    setActiveScreenshotIndex(0);
+    if (activeProjectIndex === null) return;
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
@@ -82,6 +77,7 @@ export default function Projects() {
   }, [activeProjectIndex]);
 
   const openProjectGallery = (projectIndex: number) => {
+    setActiveScreenshotIndex(0);
     setActiveProjectIndex(projectIndex);
   };
 

@@ -5,14 +5,10 @@ import {
   Code2,
   FileCode2,
   Database,
-  // Github export not available in this lucide-react build; use GitBranch as closest alternative
-  // Github,
   GitBranch,
   Laptop,
   PenTool,
-  Send,
-  Server,
-  Sparkles,
+  type LucideIcon,
 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -20,7 +16,7 @@ type Skill = {
   name: string;
   category: "Frontend" | "Database" | "Tools" | "Learning";
   level: number; // percent
-  icon: any;
+  icon: LucideIcon;
 };
 
 const skills: Skill[] = [
